@@ -1,0 +1,11 @@
+<div class="post">
+  <h2 class="post-title">Product Review:{Product}</h2>
+  <div class="post-details">
+    <div class="post-category">{category}</div>
+    <div class="post-rating">{Rating/10}</div>
+  </div>
+  <img src="{product_image}" alt="Product Image" />
+  <p class="post-description">
+    {Product Description}
+  </p>
+</div>
