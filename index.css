@@ -1,0 +1,17 @@
+.my-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .my-button img {
+    width: 60px;
+    margin-right: 20    px;
+  }
+  
