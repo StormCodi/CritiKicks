@@ -42,6 +42,38 @@
 
 
 
+.my-button-always {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.my-button-always img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.my-button-always:focus {
+  outline: none;
+}
+
+.my-button-always:hover {
+  text-decoration: underline;
+  background-color: #005dc1;
+}
+
+.my-button-always:active {
+  background-color: #004896;
+
+}
+
 .post {
   background-color: #f9f9f9;
   border: 1px solid #ccc;
@@ -98,16 +130,52 @@ img.rounded {
   color: #333;
 }
 
+.mobile-select {
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #007bff;
+  border-radius: 5px;
+}
 
-@media screen and (max-width: 768px) {
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.mobile-select img {
+  height: 50px;
+
+}
+
+.mobile-select:focus {
+  outline: none;
+}
+
+.mobile-select:hover {
+  text-decoration: underline;
+  background-color: #005dc1;
+}
+
+.mobile-select:active {
+  background-color: #004896;
+
+}
+
+
+@media only screen and (min-width: 767px) {
+  .mobile-select {
+    display: none;
   }
-
-  nav ul li {
-    margin-bottom: 10px;
+  .my-button {
+    display: block;
   }
 }
+@media only screen and (max-width: 768px) {
+  .mobile-select {
+    display: block;
+  }
+  .my-button {
+    display: none;
+  }
+}
+

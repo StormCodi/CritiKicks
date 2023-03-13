@@ -12,7 +12,7 @@
 
 <body>
     <div id="header">
-        <button class="my-button" onclick="goToUrl()">
+        <button class="my-button-always" onclick="goToUrl()">
             <img src="logo.png" alt="Logo">
             CritiKicks
         </button>
@@ -22,6 +22,11 @@
         <button class="my-button" onclick="goToAbout()">
             More Details
         </button>
+        <select  id="mobile_select" class="mobile-select" name="select" onchange="checkValue()">
+            <option value="select">Select:</option>
+            <option value="about">About Us</option>
+            <option value="details">More Details</option>
+        </select>
     </div>
     <div id="posts">
         <div id="2023 Oscar" class="post">
