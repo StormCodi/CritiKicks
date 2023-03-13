@@ -97,3 +97,17 @@ img.rounded {
   font-weight: bold;
   color: #333;
 }
+
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+}
