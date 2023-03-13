@@ -131,7 +131,7 @@ img.rounded {
 }
 
 .mobile-select {
-  width: 100px;
+  width: 70px;
   height: 52px;
   align-items: center;
   background-color: transparent;
@@ -179,5 +179,13 @@ img.rounded {
   .my-button {
     display: none;
   }
+}
+
+select,
+input,
+textarea {
+-webkit-appearance: none;
+-webkit-border-radius: 0; 
+border-radius: 0; 
 }
 
