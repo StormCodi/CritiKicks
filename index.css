@@ -131,6 +131,8 @@ img.rounded {
 }
 
 .mobile-select {
+  width: 100px;
+  height: 52px;
   align-items: center;
   background-color: transparent;
   color: #fff;
