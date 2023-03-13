@@ -115,10 +115,58 @@
         .author-name {
             font-weight: bold;
         }
+
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .my-button {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+            font-weight: bold;
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+
+        .my-button img {
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        .my-button:focus {
+            outline: none;
+        }
+
+        .my-button:hover {
+            text-decoration: underline;
+            background-color: #005dc1;
+        }
+
+        .my-button:active {
+            background-color: #004896;
+
+        }
     </style>
 </head>
 
 <body>
+    <div id="header">
+        <button class="my-button" onclick="goToUrl()">
+            <img src="logo.png" alt="Logo">
+            CritiKicks
+        </button>
+    </div>
     <h1>Create Post</h1>
     <label for="post_title">Post Title:</label>
     <input type="text" id="post_title">
@@ -175,6 +223,7 @@
             document.getElementById("html_code").value = html_template;
         }
     </script>
+    <script src="test.js"></script>
 </body>
 
 </html>
