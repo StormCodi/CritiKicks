@@ -79,3 +79,21 @@
 img.rounded {
   border-radius: 50%;
 }
+
+.post-author {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.post-author span {
+  font-size: 14px;
+  color: #777;
+  margin-right: 10px;
+}
+
+.author-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
