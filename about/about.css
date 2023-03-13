@@ -40,7 +40,6 @@
 
 }
 
-
 #about_me {
     width: 40%;
     margin: 0 auto;
@@ -51,7 +50,6 @@
     float: right;
     clear: both;
     margin-top: 20px;
-
 }
 
 #about_CritiKicks {
@@ -65,4 +63,14 @@
     clear: both;
     margin-top: 20px;
     position: absolute;
+}
+
+/* Media Query for screens smaller than 768px (tablets and phones) */
+@media only screen and (max-width: 768px) {
+  #about_me, #about_CritiKicks {
+    width: 90%; /* Reduce width to fit smaller screens */
+    float: none; /* Remove float */
+    position: static; /* Remove absolute positioning */
+    margin: 0 auto; /* Center horizontally */
+  }
 }
