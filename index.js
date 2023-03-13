@@ -12,9 +12,17 @@ function goToAbout() {
   window.location.href = "about/about.html";
 }
 
+function goToDR() {
+  window.location.href = "detailed ratings/index.html";
+}
+
 function checkValue() {
   if (document.querySelector("#mobile_select").value == "about") {
     goToAbout()
-  }
+  } else if (document.querySelector("#mobile_select").value == "details")
+    goToDR()
+}
 
+function goToDR() {
+  window.location.href = "detailed ratings/detailed.html";
 }

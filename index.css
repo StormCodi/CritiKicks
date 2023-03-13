@@ -168,14 +168,17 @@ img.rounded {
   .mobile-select {
     display: none;
   }
+
   .my-button {
     display: block;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .mobile-select {
     display: block;
   }
+
   .my-button {
     display: none;
   }
@@ -184,8 +187,7 @@ img.rounded {
 select,
 input,
 textarea {
--webkit-appearance: none;
--webkit-border-radius: 0; 
-border-radius: 0; 
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
-
